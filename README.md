@@ -6,9 +6,9 @@ Simulates a workflow where a docker script is instantiated running pw.x with pw.
 
 ## Prerequisistes
 
-Python3
-pip
-docker
+- Python3
+- pip
+- docker
 
 ## Installation
 
