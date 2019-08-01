@@ -1,5 +1,5 @@
 '''
-Example of usage of the cwlgen library
+Example of usage of the cwlgen library for command line tool
 '''
 
 '''
@@ -16,7 +16,7 @@ import cwlgen
 
 if __name__ == "__main__":
 
-    # Create a tool
+    # Initialize a command line tool
     west_tool = cwlgen.CommandLineTool(tool_id='west_tool',
                                       label='calculates pw.x, wstat.x and generates pw.out,wstat.out file',
                                       base_command='sh')
@@ -58,7 +58,7 @@ if __name__ == "__main__":
                                            doc='choose 2, 3, 4')
     west_tool.inputs.append(cores)
     
-    # Add 1 output
+    # Add 1 output with type to fetch
     output_bind = cwlgen.CommandOutputBinding(glob="*.out")
     output = cwlgen.CommandOutputParameter('west_output_file',
                                            param_type='File',
