@@ -1,0 +1,9 @@
+script_file:
+  class: File
+  path: fetchWest.sh
+input_file:
+  class: File 
+  path: pw.in
+URLs: http://www.quantum-simulation.org/potentials/sg15_oncv/upf/H_ONCV_PBE-1.0.upf,http://www.quantum-simulation.org/potentials/sg15_oncv/upf/Si_ONCV_PBE-1.1.upf
+script_type: wstat 
+no_of_cores: 2
