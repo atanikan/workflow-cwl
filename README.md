@@ -49,8 +49,11 @@ cwl-runner workflow.cwl workflow.yml
 ```
 
 ## Visualize
-To visualize the workflow, paste  at https://view.commonwl.org/
+To visualize the workflow, paste https://github.com/atanikan/workflow-cwl/blob/feature_commanlinecwl/workflow.cwl at https://view.commonwl.org/
 
+or view current at,
+
+https://view.commonwl.org/workflows/github.com/atanikan/workflow-cwl/blob/feature_commanlinecwl/workflow.cwl
 
 
 
