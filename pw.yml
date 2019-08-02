@@ -1,0 +1,10 @@
+input_file:
+  class: File
+  path: inputs/pw.in
+script_type:
+  class: File
+  path: tools/pw.x
+output:
+  class: File
+  path: outputs/pw.out
+no_of_cores: 2

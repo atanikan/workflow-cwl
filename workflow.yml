@@ -1,0 +1,19 @@
+pw_input_file:
+  class: File
+  path: inputs/pw.in
+wstat_input_file:
+  class: File
+  path: inputs/wstat.in
+pw_script:
+  class: File
+  path: tools/pw.x
+wstat_script:
+  class: File
+  path: tools/wstat.x
+pw_output:
+  class: File
+  path: outputs/pw.out
+wstat_output:
+  class: File
+  path: otuputs/pw.out
+no_of_cores: 2
