@@ -26,15 +26,30 @@ cwl tool to run cwl files and its workflows. Follow https://github.com/common-wo
 
 ## Usage
 
+To run pw.x code with pw.in file to generate pw.out file
+
 ```bash
-python genwest.py
+python genpw.py
+cwl-runner pw.cwl pw.yml
+```
+
+To run wstat.x code with wstat.in file to generate wstat.out file
+
+```bash 
+python genwstat.py
+cwl-runner wstat.cwl wstat.yml
+```
+
+
+To run the entire workflow where first pw runs and then wstat runs
+
+```bash
 python genworkflow.py
-cwl-runner west_workflow.cwl west.yml
+cwl-runner workflow.cwl workflow.yml
 ```
 
 ## Visualize
-
-To visualize the workflow, paste https://github.com/atanikan/workflow-cwl/blob/master/west_workflow.cwl at https://view.commonwl.org/
+To visualize the workflow, paste  at https://view.commonwl.org/
 
 
 
