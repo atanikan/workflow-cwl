@@ -2,7 +2,9 @@
 
 ## About
 
-Simulates a workflow where a docker script is instantiated running pw.x with pw.in file and wstat.x with wstat.in file sequentially using cwl in a unix O.S. Change inputs in the west.yml file and *.in files to simulate other results. You can visualize the workflow at https://view.commonwl.org/
+Simulates a workflow where a docker script is instantiated running pw.x with pw.in file and wstat.x with wstat.in file sequentially using cwl in a unix O.S. Change inputs in the west.yml file and *.in files to simulate other results. You can visualize the workflow at https://view.commonwl.org/.
+
+The pw.x and wstat.x are empty file simulating how they would appear. Install the libraries and code to recreate this exactly.
 
 ## Prerequisistes
 
